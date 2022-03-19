@@ -2,13 +2,13 @@
 
 ## Team Members: Michael Raines, Zane Zmola, Gabriella Burns, Lekh Malla
 
-Project Proposal: We will create a database that reflects the air quality of the fastest-growing cities in the US which is a valuable use case for real estate builders for analysis.
+### Project Proposal: 
+We will create a database that reflects the air quality of the fastest-growing cities in the US which is a valuable use case for real estate builders for analysis.
 
 Strategy:
 14 US cities with the highest population growth  → take the latitude and longitude from the metropolitan areas of those cities → query open weather api for historical data based on those zip codes → pull other sources as CSV files where available.
 
-
-Extract
+### Extract
 
 Datasets used and their sources:
 
@@ -39,7 +39,7 @@ Lessons Learned:
 -	The government does not build effective APIs
 
 
-Transform
+### Transform
 
 Cleaning
 -	We had to change data types for date, which was stored as a string, and City, which was stored as an object.
@@ -62,7 +62,7 @@ Filtering
 Formatting
 -	We had to change our case sensitive columns to lowercase
 
-Load
+### Load
 
 We decided to use PGAdmin which is a relational database for storage for the following reasons:
 1.	Our data was cleaned and structured well.
