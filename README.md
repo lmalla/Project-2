@@ -1,6 +1,6 @@
 # Project-2
 
-##Team Members: Michael Raines, Zane Zmola, Gabriella Burns, Lekh Malla
+## Team Members: Michael Raines, Zane Zmola, Gabriella Burns, Lekh Malla
 
 Project Proposal: We will create a database that reflects the air quality of the fastest-growing cities in the US which is a valuable use case for real estate builders for analysis.
 
